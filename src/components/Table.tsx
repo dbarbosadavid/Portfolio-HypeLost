@@ -47,7 +47,7 @@ const Table: React.FC = () => {
                             title="Maserati - Mc Dz"
                         />
                         <CardSpotify
-                            src="https://open.spotify.com/embed/track/5t5NT1aSXt3zjRUy4iyLOe?utm_source=generator"
+                            src="https://open.spotify.com/embed/track/5t5NT1aSXt3zjRUy4iyLOe?utm_source=generator&theme=0"
                             title="Pandora - Mc Dz" 
                         />
                         <Card

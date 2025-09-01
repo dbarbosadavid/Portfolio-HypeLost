@@ -10,16 +10,16 @@ export const SocialMedias: React.FC = () => {
             <h2>HypeLost Beats - Social Medias</h2>
             <div id="social-medias">
                 <a href="https://www.youtube.com/@prodhypelost" target="_blank">
-                <img width="10%" src={youtubeLogo} className="logo" alt="IG Profile"/>
+                <img src={youtubeLogo} className="logo" alt="IG Profile"/>
                 </a>
                 <a href="https://www.instagram.com/hypelostbeats/" target="_blank" >
-                <img width="10%" src={instagramLogo} className="logo" alt="IG Profile" />
+                <img src={instagramLogo} className="logo" alt="IG Profile" />
                 </a>
                 <a href="https://www.beatstars.com/hypelost" target="_blank">
-                <img width="10%" src={beatstarsLogo} className="logo" alt="BeatStars Profile"/>
+                <img src={beatstarsLogo} className="logo" alt="BeatStars Profile"/>
                 </a>
                 <a href="https://beatplace.co/hypelost-hl" target="_blank">
-                <img width="6%" src={beatplaceLogo} className="logo" alt="BeatPlace Profile"/>
+                <img src={beatplaceLogo} className="logo" alt="BeatPlace Profile"/>
                 </a>
             </div>
         </>

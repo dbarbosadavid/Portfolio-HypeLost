@@ -13,28 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-@media screen and (max-width: 700px) {
-  :root {
-    font-size: 14px;
-  }
-  table{
-    font-size: 0.8rem;
-    margin-top: 1rem;
-    width: 100%;
-  }
-  
-}
-
-@media screen and (min-width: 1600px){
-  table {
-    width: 150%;
-    margin-left: -25%;
-  }
-}
 
 body {
   margin: 0;

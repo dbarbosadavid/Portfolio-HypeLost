@@ -13,7 +13,7 @@ const CardSpotify: React.FC<CardProps> = (props) => {
         <>
             <tr>
                 <p style={{marginBottom: "2rem", textAlign: "center"}}>
-                    <iframe id="ytplayer" width="100%" height="80rem" src={props.src}></iframe>
+                    <iframe src={props.src} width="100%" height="80"></iframe>
                     <div>
                         {props.title}
                     </div>                    
