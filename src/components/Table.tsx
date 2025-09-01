@@ -6,7 +6,7 @@ import CardSpotify from "./CardSpotify";
 const Table: React.FC = () => {
     return (
         <>
-            <table style={{width: '150%', marginLeft: '-20%'}}>
+            <table>
                     <tr>
                         <th>Beat</th>
                         <th>Mix/Master</th>
