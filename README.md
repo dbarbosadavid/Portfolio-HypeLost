@@ -1,70 +1,74 @@
+# Music Portfolio Website  
 
-# React + TypeScript + Vite
+A personal **portfolio website** to showcase my work as a **music producer**.  
+Built in **TypeScript** with **React** and **Vite**, the project focuses on speed, simplicity, and a clean presentation of music projects.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+This project is already deployed at VERCEL, you can visit the link:
+[Portfolio - HypeLost](https://portfolio-hypelost.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+##  Features  
+-  Display of music projects in an interactive way  
+-  Clean and responsive design for all devices  
+-  Fast build and optimized performance using Vite 
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Tech Stack  
+- **React** – UI development  
+- **Vite** – Fast build tool and dev server  
+- **CSS** – Styling  
+- **Node.js** – Project dependencies  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## Project Structure  
+├── src/  
+│   ├── assets/         # Images, icons, audio  
+│   ├── components/     # Reusable UI components 
+│   ├── App.tsx         # Main app component  
+│   └── main.tsx        # Entry point  
+├── index.html          # Root HTML file  
+├── package.json        # Project dependencies  
+└── vite.config.js      # Vite configuration  
+
+## Installation & Setup
+
+Clone the repository and install dependencies:
+
+## Clone this repo
+```
+git clone https://github.com/your-username/music-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Go to project folder
 ```
+cd music-portfolio
+```
+
+## Install dependencies
+```
+npm install
+```
+
+
+### Run the development server:
+```
+npm run dev
+```
+
+### Build for production:
+```
+npm run build
+```
+
+### Preview production build:
+```
+npm run preview
+```
+
+
