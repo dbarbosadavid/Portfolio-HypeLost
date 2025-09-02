@@ -41,41 +41,6 @@ Built in **TypeScript** with **React** and **Vite**, the project focuses on spee
 │   └── main.tsx        # Entry point  
 ├── index.html          # Root HTML file  
 ├── package.json        # Project dependencies  
-└── vite.config.js      # Vite configuration  
-
-## Installation & Setup
-
-Clone the repository and install dependencies:
-
-## Clone this repo
-```
-git clone https://github.com/your-username/music-portfolio.git
-```
-
-## Go to project folder
-```
-cd music-portfolio
-```
-
-## Install dependencies
-```
-npm install
-```
-
-
-### Run the development server:
-```
-npm run dev
-```
-
-### Build for production:
-```
-npm run build
-```
-
-### Preview production build:
-```
-npm run preview
-```
+└── vite.config.js      # Vite configuration 
 
 
