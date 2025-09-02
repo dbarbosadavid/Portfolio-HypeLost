@@ -29,18 +29,4 @@ Built in **TypeScript** with **React** and **Vite**, the project focuses on spee
 - **Vite**: Fast build tool and dev server
 - **TypeScript**: Type safety
 - **CSS**: Styling  
-- **Node.js**: Project dependencies  
-
----
-
-## Project Structure  
-├── src/  
-│   ├── assets/         # Images, icons, audio  
-│   ├── components/     # Reusable UI components 
-│   ├── App.tsx         # Main app component  
-│   └── main.tsx        # Entry point  
-├── index.html          # Root HTML file  
-├── package.json        # Project dependencies  
-└── vite.config.js      # Vite configuration 
-
-
+- **Node.js**: Project dependencies 
