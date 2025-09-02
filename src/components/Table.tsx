@@ -39,7 +39,6 @@ const Table: React.FC = () => {
                             src="ASO5ycay_p8"
                             title="Guilherme Arenas - Onomatopeia"
                         />
-                        
                     </th>
                     <th>
                         <Card
@@ -59,6 +58,10 @@ const Table: React.FC = () => {
                         <Card
                             src="YUeq9sMp1pU"
                             title="Barbxsa - Marola"
+                        />
+                        <Card
+                            src="NhE25IcNVTc"
+                            title="JovemPac - Importado"
                         />
                         <Card
                             src="wjo7XjACTWo"

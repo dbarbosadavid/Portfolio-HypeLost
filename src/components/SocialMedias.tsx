@@ -25,3 +25,5 @@ export const SocialMedias: React.FC = () => {
         </>
     )
 }
+
+export default SocialMedias;

@@ -7,7 +7,7 @@ interface CardProps {
 
 
 
-const Nome: React.FC<CardProps> = (props) => {
+const Card: React.FC<CardProps> = (props) => {
     return (
         <>
             <tr>
@@ -23,4 +23,4 @@ const Nome: React.FC<CardProps> = (props) => {
     )
 }
 
-export default Nome;
+export default Card;
