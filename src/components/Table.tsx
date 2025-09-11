@@ -14,6 +14,10 @@ const Table: React.FC = () => {
                     </tr>
                     <th>
                         <Card
+                            src="OpilCYYrrKQ"
+                            title="'YES' (Prod. HypeLost)"
+                        />
+                        <Card
                             src="iH3ldAWOZXI"
                             title="'DAMN' (Prod. HypeLost)"
                         />
