@@ -5,7 +5,7 @@ const OTempoERei: React.FC = () => {
     return (
         <SmartLinkBody
             musicTitle="O Tempo é Rei"
-            artistName="HypeLost"
+            artistName="Barbxsa"
             coverImageUrl="https://soup.onerpm.com/web/user/images/1/74/74Q3FTDAjidZ90UknO2I.200.jpg"
             spotifyLink="https://open.spotify.com/intl-pt/track/0Rl9iFbvB2wR66YBRHwbIS?si=da204fde84384abf"
             appleMusicLink="https://music.apple.com/us/album/o-tempo-%C3%A9-rei-single/1855560669"
