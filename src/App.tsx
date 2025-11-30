@@ -1,15 +1,16 @@
 import './App.css'
-import Table from './components/Table'
-import Nav from './components/Nav'
 import Footer from './components/Footer'
+import { BrowserRouter } from 'react-router-dom'
+import AppRoutes from './routes/Router'
 
 
 function App() {
   return (
     <>
-      <Nav />
-      <Table />
-      <Footer />
+      <BrowserRouter>
+        <AppRoutes />
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }
