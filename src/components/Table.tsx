@@ -6,11 +6,10 @@ import CardSpotify from "./CardSpotify";
 const Table: React.FC = () => {
     return (
         <>
-            <table>
+            <div className="table-div">
+                <table>
                     <tr>
                         <th>Beat</th>
-                        <th>Mix/Master</th>
-                        <th>Beatmake + Mix/Master</th>
                     </tr>
                     <th>
                         <Card
@@ -44,6 +43,13 @@ const Table: React.FC = () => {
                             title="Guilherme Arenas - Onomatopeia"
                         />
                     </th>
+                </table>
+            </div>
+            <div className="table-div">
+                <table>
+                    <tr>
+                        <th>Mix/Master</th>
+                    </tr>
                     <th>
                         <Card
                             src="ejuYhkR3Pfw"
@@ -58,38 +64,45 @@ const Table: React.FC = () => {
                             title="Pingente - Teaga"
                         />
                     </th>
-                    <th>
-                        <Card
-                            src="YUeq9sMp1pU"
-                            title="Barbxsa - Marola"
-                        />
-                        <Card
-                            src="NhE25IcNVTc"
-                            title="JovemPac - Importado"
-                        />
-                        <Card
-                            src="wjo7XjACTWo"
-                            title="Barbxsa - Ocasiões"
-                        />
-                        <Card
-                            src="Cr5k4_g3IUk"
-                            title="Barbxsa - Mané"
-                        />
-                        <Card
-                            src="IfLEGooQ32g"
-                            title="Barbxsa - Os Menó Novim"
-                        />
-                        <Card
-                            src="c_dFQ8-QD_U"
-                            title="Barbxsa - Jet"
-                        />
-                        <Card
-                            src="CGzVjEOYDRs"
-                            title="Barbxsa - Mario Kart"
-                        />
-                    </th>
-                    
-            </table>
+                </table>
+            </div>
+            <div className="table-div">
+                <table>
+                        <tr>
+                            <th>Beatmake + Mix/Master</th>
+                        </tr>
+                        <th>
+                            <Card
+                                src="YUeq9sMp1pU"
+                                title="Barbxsa - Marola"
+                            />
+                            <Card
+                                src="NhE25IcNVTc"
+                                title="JovemPac - Importado"
+                            />
+                            <Card
+                                src="wjo7XjACTWo"
+                                title="Barbxsa - Ocasiões"
+                            />
+                            <Card
+                                src="Cr5k4_g3IUk"
+                                title="Barbxsa - Mané"
+                            />
+                            <Card
+                                src="IfLEGooQ32g"
+                                title="Barbxsa - Os Menó Novim"
+                            />
+                            <Card
+                                src="c_dFQ8-QD_U"
+                                title="Barbxsa - Jet"
+                            />
+                            <Card
+                                src="CGzVjEOYDRs"
+                                title="Barbxsa - Mario Kart"
+                            />
+                        </th>
+                </table>
+            </div>
         </>
     )
 }

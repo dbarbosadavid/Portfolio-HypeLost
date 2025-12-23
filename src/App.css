@@ -6,43 +6,32 @@
 }
 
 table {
+  max-width: 300px;
   border-collapse: collapse;
+  table-layout: inherit;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 700px) {
-  :root {
-    font-size: 14px;
-  }
-  table{
-    font-size: 0.8rem;
-    margin-top: 1rem;
-    width: 100%;
-  }
-  iframe {
-    height: 80%;
-    width: 80%;
-    
-  }
   
 }
 
-
-@media screen and (min-width: 1600px){
-  table {
-    width: 150%;
-    margin-left: -25%;
+@media screen and (min-width: 1000px) {
+  .table-div {
+    display: inline-flex;
   }
 }
 
 th {
   text-align: left;
+  font-size: larger;
   border: 3px solid #333333;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 iframe {
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   box-shadow: 0 0rem 1rem #0000005e;
 }
 
@@ -56,4 +45,11 @@ iframe {
 #social-medias img:hover {
   filter: drop-shadow(0 0 0.5rem #6b6b6baa);
   transform: scale(1.1);
+}
+
+tr{
+  text-align: left;
+  font-size: larger;
+  border-bottom: 1px solid #333333;
+  padding: 2rem;
 }

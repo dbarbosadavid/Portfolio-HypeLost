@@ -1,5 +1,4 @@
-import '../SmartLingPage.css'
-import SmartLinkBody from '../components/SmartLinkBody'
+import SmartLinkBody from '../../components/SmartLinkBody'
 
 const OTempoERei: React.FC = () => {
     return (

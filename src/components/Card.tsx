@@ -12,7 +12,7 @@ const Card: React.FC<CardProps> = (props) => {
         <>
             <tr>
                 <p style={{marginBottom: "2rem", textAlign: "center"}}>
-                    <iframe width="100%" src={"https://www.youtube.com/embed/" + props.src}></iframe>
+                    <iframe height={"100%"} src={"https://www.youtube.com/embed/" + props.src}></iframe>
                     <div>
                         {props.title}
                     </div>                    
