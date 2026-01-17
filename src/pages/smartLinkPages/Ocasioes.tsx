@@ -1,4 +1,4 @@
-import SmartLinkBody from '../../components/SmartLinkBody'
+import SmartLinkBody from '../../components/layout/SmartLinkBody'
 
 const Ocasioes: React.FC = () => {
     return (

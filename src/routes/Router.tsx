@@ -1,9 +1,10 @@
 import React from "react";
 import { Routes as RouterRoutes, Route } from "react-router-dom";
 import MainPage from "../pages/MainPage";
-import OTempoERei from "../pages/musicPages/OTempoERei";
-import Marola from "../pages/musicPages/Marola";
-import Ocasioes from "../pages/musicPages/Ocasioes";
+import OTempoERei from "../pages/smartLinkPages/OTempoERei";
+import Marola from "../pages/smartLinkPages/Marola";
+import Ocasioes from "../pages/smartLinkPages/Ocasioes";
+import SpotifyProfile from "../components/layout/SpotifyProfile";
 
 const AppRoutes: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/otempoerei" element={<OTempoERei />} />
       <Route path="/marola" element={<Marola />} />
       <Route path="/ocasioes" element={<Ocasioes />} />
+      <Route path="/spotify-profile" element={<SpotifyProfile />} />
     </RouterRoutes>
   );
 };

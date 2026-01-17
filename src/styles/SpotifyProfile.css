@@ -1,0 +1,10 @@
+.embed-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.embed-wrapper iframe {
+  border: none;
+  display: block;
+}

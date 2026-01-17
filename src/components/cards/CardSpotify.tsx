@@ -11,14 +11,14 @@ interface CardProps {
 const CardSpotify: React.FC<CardProps> = (props) => {
     return (
         <>
-            <tr>
+            <div className="card reveal">
                 <p style={{marginBottom: "2rem", textAlign: "center"}}>
                     <iframe src={props.src} width="100%" height="80"></iframe>
-                    <div>
+                    <p>
                         {props.title}
-                    </div>                    
+                    </p>
                 </p>
-            </tr>
+            </div>
             
         </>
     )

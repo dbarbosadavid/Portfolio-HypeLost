@@ -20,11 +20,33 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  background: linear-gradient(
+    -45deg,
+    #523d2a,
+    #1d331b,
+    #393a57,
+    #020617
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 

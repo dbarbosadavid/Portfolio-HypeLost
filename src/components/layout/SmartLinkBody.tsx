@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import SpotifyLogo from '../assets/spotify-logo.svg'
-import AppleMusicLogo from '../assets/apple-music-logo.svg'
-import AmazonMusicLogo from '../assets/amazon-music-logo.png'
-import DeezerLogo from '../assets/deezer-logo.png'
-import YtMusicLogo from '../assets/yt-music-logo.svg'
+import SpotifyLogo from '../../assets/spotify-logo.svg'
+import AppleMusicLogo from '../../assets/apple-music-logo.svg'
+import AmazonMusicLogo from '../../assets/amazon-music-logo.png'
+import DeezerLogo from '../../assets/deezer-logo.png'
+import YtMusicLogo from '../../assets/yt-music-logo.svg'
 
-import DigitalPlatforms from '../components/DigitalPlatforms'
-import '../SmartLingPage.css'
+import DigitalPlatforms from '../DigitalPlatforms'
+import '../../styles/SmartLingPage.css'
 
 interface SmartLinkBodyProps {
   musicTitle: string;
