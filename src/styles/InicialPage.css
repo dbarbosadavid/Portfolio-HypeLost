@@ -1,5 +1,5 @@
 .inicial-page {
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,6 +24,7 @@
 }
 
 .inicial-page p {
+  width: 100%;
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
