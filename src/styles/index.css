@@ -30,6 +30,8 @@ body {
   );
   background-size: 400% 400%;
   animation: gradientMove 12s ease infinite;
+
+  color: var(--text-color);
 }
 
 h1 {
