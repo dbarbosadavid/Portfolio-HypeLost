@@ -11,8 +11,9 @@
 }
 
 .inicial-page h1 {
-  font-size: clamp(2.5rem, 10%, 3.5rem);
+  font-size: clamp(200%, 10%, 100%);
   margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 .inicial-page h1 span {
