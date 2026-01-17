@@ -4,11 +4,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%;
 }
 
 .inicial-page-content {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .inicial-page h1 {
