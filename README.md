@@ -18,12 +18,12 @@ O projeto tem como objetivo apresentar meus trabalhos musicais e, ao mesmo tempo
 
 ## ✨ Funcionalidades
 
-- **Hero Section** com animações
-- **Navbar sticky**
-- **Scroll reveal** nos cards utilizando IntersectionObserver
-- **Layout totalmente responsivo (mobile-first)**
-- **Background com gradiente animado**
-- **Lazy loading** em iframes (melhor performance)
+- Hero Section com animações
+- Navbar sticky
+- Scroll reveal nos cards utilizando IntersectionObserver
+- Layout totalmente responsivo
+- Background com gradiente animado
+- Lazy loading em iframes
 - Estrutura de projeto organizada e escalável
 ---
 
