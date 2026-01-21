@@ -1,7 +1,59 @@
 .embed-wrapper {
+  animation: fadeLeft 0.8s ease forwards;
+  opacity: 0;
+  animation-delay: 0.8s;
   border-radius: 12px;
   overflow: hidden;
   background-color: transparent;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h2 {
+  animation: fadeDown 0.6s ease forwards;
+  opacity: 0;
+  animation-delay: 0.1s;
+}
+
+a {
+  animation: fadeDown 0.8s ease forwards;
+  opacity: 0;
+  animation-delay: 0.3s;
+}
+
+#home-page-button, #tracklist-text {
+  animation-delay: 1.5s;
+  animation: fade 0.8s ease forwards;
+  opacity: 0;
 }
 
 .embed-wrapper iframe {

@@ -36,7 +36,7 @@ const InicialPage: React.FC = () => {
             </p>
           </div>
           <div>
-            <a href="/spotify-profile" className="btn primary" target="_blank">
+            <a href="/spotify-profile" className="btn primary">
               Sons Autorais
             </a>
             <p style={{fontSize: '0.5rem', marginTop: '1rem'}}>

@@ -77,6 +77,16 @@ export const mixMaster = [
 export const fullProduction = [
     {
         media: "youtube",
+        src: "wjo7XjACTWo",
+        title: "Barbxsa - Ocasiões",
+    },
+    {
+        media: "youtube",
+        src: "OycCxE3JbbA?si=TQ3qaqe8LEpSAkX_",
+        title: "JovemPac - Goleta",
+    },
+    {
+        media: "youtube",
         src: "0HXXT1KjiVI",
         title: "Barbxsa - O Tempo é Rei",
     },
@@ -90,11 +100,7 @@ export const fullProduction = [
         src: "NhE25IcNVTc",
         title: "JovemPac - Importado",
     },
-    {
-        media: "youtube",
-        src: "wjo7XjACTWo",
-        title: "Barbxsa - Ocasiões",
-    },
+
     {
         media: "youtube",
         src: "Cr5k4_g3IUk",

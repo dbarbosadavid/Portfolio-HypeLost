@@ -20,7 +20,7 @@ const SpotifyProfile: React.FC = () => {
             />
 
 
-            <div style={{marginTop: '2rem'}}>
+            <div style={{marginTop: '2rem'}} id="home-page-button">
                 <a
                     href="/"
                     className="btn secondary"
@@ -30,7 +30,7 @@ const SpotifyProfile: React.FC = () => {
             </div>
 
 
-            <p style={{marginTop: '3rem'}}>
+            <p style={{marginTop: '3rem'}} id='tracklist-text'>
                 Spotify TrackList
             </p>
 

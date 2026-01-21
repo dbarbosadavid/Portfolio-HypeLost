@@ -13,10 +13,22 @@ const WorksBody: React.FC = () => {
     return (
         <>
             <section className="works" id="works">
+
+            <div className="works-section">
+                <h2>🔥 Beatmake + Mix/Master</h2>
+                <h5>Projetos onde diz toda a produção (Beat + Mixagem + Masterização)</h5>
+                <div className="cards-grid">
+                  {fullProduction.map((work) => (
+                    work.media === "youtube" ?
+                    <Card src={work.src} title={work.title} /> :
+                    <CardSpotify src={work.src} title={work.title} />
+                  ))}
+                </div>
+            </div>
       
             <div className="works-section">
                 <h2>🎧 Beats</h2>
-                <h5>Instrumentais autorais</h5>
+                <h5>Instrumentais autorais / Músicas onde produzi somente o beat</h5>
                 <div className="cards-grid">
                     {beats.map((work) => (
                         work.media === "youtube" ?
@@ -36,19 +48,7 @@ const WorksBody: React.FC = () => {
                         <CardSpotify src={work.src} title={work.title} />
                     ))}
                 </div>
-            </div>
-
-            <div className="works-section">
-                <h2>🔥 Beatmake + Mix/Master</h2>
-                <h5>Projetos onde diz toda a produção (Beat + Mixagem + Masterização)</h5>
-                <div className="cards-grid">
-                  {fullProduction.map((work) => (
-                    work.media === "youtube" ?
-                    <Card src={work.src} title={work.title} /> :
-                    <CardSpotify src={work.src} title={work.title} />
-                  ))}
-                </div>
-            </div>
+            </div>            
 
             </section>
         </>
