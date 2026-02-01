@@ -6,8 +6,8 @@ interface Props {
 }
 
 const BeforeAfter: React.FC<Props> = ({ name, folder, idx, onPlayFunction }) => {
-    const rawPath = `src/assets/audios/comparativo-mix/${folder}/raw.mp3`;
-    const mixPath = `src/assets/audios/comparativo-mix/${folder}/mix.mp3`;
+    const rawPath = `audios/comparativo-mix/${folder}/raw.mp3`;
+    const mixPath = `audios/comparativo-mix/${folder}/mix.mp3`;
 
     return (
         <>
