@@ -1,12 +1,10 @@
-import InicialPage from "../components/layout/InicialPage"
-import Nav from "../components/layout/Nav"
+import HomePage from "./HomePage"
 import WorksBody from "../components/layout/WorksBody"
 
 const MainPage: React.FC = () => {
     return (
         <>
-            <Nav />
-            <InicialPage />
+            <HomePage />
             <WorksBody />
         </>
     )

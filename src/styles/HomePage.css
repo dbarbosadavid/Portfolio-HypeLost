@@ -1,0 +1,157 @@
+.home-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-page-content {
+  max-width: 100%;
+}
+
+.home-page h1 {
+  font-size: clamp(200%, 10%, 100%);
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.home-page h1 span {
+  display: block;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
+
+.home-page p {
+  width: 100%;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  opacity: 0.85;
+}
+
+/* BOTÕES */
+.home-page-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1.6rem;
+  border-radius: 999px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 1;
+}
+
+.btn.primary {
+  background: #ffffff;
+  color: #000000;
+}
+
+.btn.primary:hover {
+  animation: transitionColorFromWhte 0.2s ease;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: none;
+}
+
+.btn.secondary:hover {
+  animation: transitionColor 0.2s ease;
+  border: none;
+  color: #000000;
+  background: #ffffff;
+}
+
+.btn.secondary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+/* RESPONSIVO */
+@media (max-width: 830px) {
+  .home-page-actions {
+    flex-direction: column;
+  }
+}
+
+a {
+  margin: 5px;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes transitionColor {
+  from {
+    color: #ffffff;
+    background: none;
+    border: none;
+  }
+  to {
+    border: 1px solid #ffffff;
+    color: #000000;
+    background: #ffffff;
+  }
+}
+
+@keyframes transitionColorFromWhte {
+  from {
+    border: none;
+    color: #000000;
+    background: #ffffff;
+  }
+  to {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: none;
+  }
+}
+
+
+.home-page h1,
+.home-page p,
+.home-page-actions {
+  animation: fadeUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.home-page h1 {
+  animation-delay: 0.1s;
+}
+
+.home-page p {
+  animation-delay: 0.3s;
+}
+
+@media(min-width: 830px) {
+   .home-page-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      animation-delay: 0.5s;
+    }
+}
+
+.btn.main {
+  background: #001aff4b;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 0 1rem #001affaa;
+}

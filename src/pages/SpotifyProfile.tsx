@@ -1,12 +1,14 @@
-import { artist } from "../../data/works";
-import DigitalPlatforms from "../DigitalPlatforms";
-import SpotifyLogo from '../../assets/spotify-logo.svg';
-import InstagramLogo from '../../assets/instagram-logo.webp';
-import '../../styles/SpotifyProfile.css';
+import { artist } from "../data/works";
+import DigitalPlatforms from "../components/DigitalPlatforms";
+import SpotifyLogo from '../assets/spotify-logo.svg';
+import InstagramLogo from '../assets/instagram-logo.webp';
+import '../styles/SpotifyProfile.css';
 
 const SpotifyProfile: React.FC = () => {
     return (
         <>
+            <title>Spotify Profile</title>
+            
             <h2>{artist.name}</h2>
             <DigitalPlatforms
                 name='Spotify'
@@ -18,17 +20,6 @@ const SpotifyProfile: React.FC = () => {
                 logo={InstagramLogo}
                 url={artist.linkIg}
             />
-
-
-            <div style={{marginTop: '2rem'}} id="home-page-button">
-                <a
-                    href="/"
-                    className="btn secondary"
-                >
-                    Voltar à Home Page
-                </a>
-            </div>
-
 
             <p style={{marginTop: '3rem'}} id='tracklist-text'>
                 Spotify TrackList

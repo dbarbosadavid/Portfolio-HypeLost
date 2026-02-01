@@ -2,7 +2,6 @@ import './styles/App.css'
 import Footer from './components/layout/Footer'
 import { BrowserRouter } from 'react-router-dom'
 import AppRoutes from './routes/Router'
-import './styles/SmartLingPage.css'
 
 function App() {
   return (

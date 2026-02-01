@@ -17,6 +17,10 @@ const Nav: React.FC = () => {
             <span>Músico/Produtor</span>
             
           </div>
+          <a
+                    href="/">
+                <i className="fa fa-home" aria-hidden="true"></i>
+          </a>
         </div>
 
         <SocialMedias />

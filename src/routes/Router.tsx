@@ -4,7 +4,10 @@ import MainPage from "../pages/MainPage";
 import OTempoERei from "../pages/smartLinkPages/OTempoERei";
 import Marola from "../pages/smartLinkPages/Marola";
 import Ocasioes from "../pages/smartLinkPages/Ocasioes";
-import SpotifyProfile from "../components/layout/SpotifyProfile";
+import SpotifyProfile from "../pages/SpotifyProfile";
+import ServicosPage from "../pages/ServicosPage";
+import BuyBeatPage from "../pages/BuyBeatPage";
+import ContratarMixMasterPage from "../pages/ContratarMixMasterPage";
 
 const AppRoutes: React.FC = () => {
   return (
@@ -14,6 +17,9 @@ const AppRoutes: React.FC = () => {
       <Route path="/marola" element={<Marola />} />
       <Route path="/ocasioes" element={<Ocasioes />} />
       <Route path="/spotify-profile" element={<SpotifyProfile />} />
+      <Route path="/servicos" element={<ServicosPage />} />
+      <Route path="/comprar-beat" element={<BuyBeatPage />} />
+      <Route path="/contratar-mix-master" element={<ContratarMixMasterPage />} />
     </RouterRoutes>
   );
 };
