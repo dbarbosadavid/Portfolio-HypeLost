@@ -38,7 +38,6 @@ const HomePage: React.FC = () => {
             <div>
               <a
                 href="/comprar-beat"
-                target="_blank"
                 className="btn primary"
               >
                 Comprar Beats

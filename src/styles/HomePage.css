@@ -83,7 +83,7 @@
 }
 
 a {
-  margin: 5px;
+  margin: 0, 5px;
 }
 
 @keyframes fadeUp {
