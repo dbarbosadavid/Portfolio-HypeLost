@@ -72,6 +72,15 @@ ul{
   justify-self: center;
 }
 
+@media (max-width: 600px) {
+  .info-section {
+    width: 80%;
+  }
+  .main-container {
+    max-width: 80%;
+  }
+}
+
 ul li {
   text-align: left;
   margin: 1rem;
