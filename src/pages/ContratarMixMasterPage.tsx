@@ -1,36 +1,21 @@
 import '../styles/ContratarMixMasterPage.css'
-import KekeRaw from '../assets/audios/comparativo-mix/keke/raw.mp3'
-import KekeMix from '../assets/audios/comparativo-mix/keke/mix.mp3'
 import BeforeAfter from '../components/cards/BeforeAfter'
+import beforeAfterData from '../data/beforeAfter'
 
 const ContratarMixMasterPage: React.FC = () => {
-    const beforeAfter = [
-        { 
-            name: 'Barbxsa - Keké', 
-            folder: 'keke' 
-        },
-        { 
-            name: 'Barbxsa - Golpe de Vista', 
-            folder: 'golpe-de-vista' 
-        },
-        { 
-            name: 'JovemPac - Goleta', 
-            folder: 'goleta' 
-        }
-    ]
-        function stopAudios(){
-                const audios = document.querySelectorAll('audio');
+    function stopAudios(){
+            const audios = document.querySelectorAll('audio');
 
-                audios.forEach(audio => {
-                    audio.addEventListener('play', function() {
-                        audios.forEach(outroAudio => {
-                            if (outroAudio !== audio) {
-                                outroAudio.pause();
-                            }
-                        });
+            audios.forEach(audio => {
+                audio.addEventListener('play', function() {
+                    audios.forEach(outroAudio => {
+                        if (outroAudio !== audio) {
+                            outroAudio.pause();
+                        }
                     });
                 });
-        }
+            });
+    }
 
   return (
         <>
@@ -38,13 +23,13 @@ const ContratarMixMasterPage: React.FC = () => {
             <div className="main-container">
                 Antes e Depois da Mix/Master:
                 <div className="carousel">
-                    {beforeAfter.map((item, index) => (
+                    {beforeAfterData.map((item, index) => (
                         <BeforeAfter name={item.name} folder={item.folder} idx={index + 1} onPlayFunction={stopAudios}/>
                     )) } 
                 </div>
 
                 <div className="carousel-nav">
-                    {beforeAfter.map((_item, index) => (
+                    {beforeAfterData.map((_item, index) => (
                         <a key={index} href={`#slide-${index + 1}`} target='_self'>
                             {index + 1}
                         </a>
