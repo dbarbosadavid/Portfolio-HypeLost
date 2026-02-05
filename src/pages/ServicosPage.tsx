@@ -56,7 +56,12 @@ const ServicosPage: React.FC = () => {
                     </div>
 
                     <div className="pacotes">
+                        <h2>Pacote Lançamento</h2>
                         <p>Mix + Master — <i className="fa-solid fa-sack-dollar"></i> A partir de R$400</p>
+                        <p><i className="fa-regular fa-calendar"></i> Prazos Sob Consulta</p>
+                    </div>
+                    <div className="pacotes">
+                        <h2>Pacote Completo</h2>
                         <p>Beat + Mix + Master — <i className="fa-solid fa-sack-dollar"></i> A partir de R$600</p>
                         <p><i className="fa-regular fa-calendar"></i> Prazos Sob Consulta</p>
                     </div>
@@ -67,7 +72,7 @@ const ServicosPage: React.FC = () => {
 
                 <h2>
                     <a href="https://ig.me/m/hypelostbeats" target="_blank" className="btn primary">
-                        Contratar serviço
+                        Levar meu som pro próximo nível
                     </a>
                     <p style={{fontSize: '0.75rem', marginTop: '1rem'}}>Você será redirecionado à DM (Instagram)</p>
                 </h2>

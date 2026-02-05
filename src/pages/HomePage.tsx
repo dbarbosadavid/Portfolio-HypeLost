@@ -9,17 +9,16 @@ const HomePage: React.FC = () => {
         <div className="home-page-content">
           <h1>
             HypeLost/Barbosa
-            <span> Produtor Musical </span>
           </h1>
 
-          <p>
+          <h1>
             Produção musical, mixagem e masterização para artistas independentes:
             <br />
             Transformando ideias em sons prontos para lançar.
             <br />
             <br />
-            <h1>Agenda aberta para novos projetos!</h1>
-          </p>
+            <p>Agenda aberta para novos projetos!</p>
+          </h1>
           
 
           <div className="home-page-actions">
@@ -28,7 +27,7 @@ const HomePage: React.FC = () => {
                 href="/contratar-mix-master"
                 className="btn primary"
               >
-                Contratar Mix / Master
+                Quero um som profissional
               </a>
               <p style={{fontSize: '0.75rem', marginTop: '1rem'}}>
                 Serviços de Mixagem e Masterização
@@ -40,7 +39,7 @@ const HomePage: React.FC = () => {
                 href="/comprar-beat"
                 className="btn primary"
               >
-                Comprar Beats
+                Quero um Beat
               </a>
               <p style={{fontSize: '0.75rem', marginTop: '1rem'}}>
                 Encomendar/Comprar Instrumentais
@@ -84,8 +83,8 @@ const HomePage: React.FC = () => {
                 DM
               </p>
             </div>
-
           </div>
+          <i className="fa-solid fa-angle-down fa-bounce"></i>
         </div>
       </section>
     </>

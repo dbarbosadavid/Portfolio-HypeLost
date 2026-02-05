@@ -4,6 +4,14 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 0;
+}
+
+.fa-bounce {
+  color: rgb(150, 150, 150);
+  font-size: 3rem;
+  margin-top: 5rem;
+  text-shadow: #00000033 0 0 20px;
 }
 
 .home-page-content {

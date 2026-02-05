@@ -20,6 +20,8 @@ const ContratarMixMasterPage: React.FC = () => {
   return (
         <>
             <title>Contratar Mix e Master</title>
+            <p>Evite lançamentos sem vida, voz abafada ou sem impacto.
+Uma boa música merece ser lapidada para valorizar ainda mais o som e a intenção.</p>
             <div className="main-container">
                 Antes e Depois da Mix/Master:
                 <div className="carousel">
@@ -35,6 +37,16 @@ const ContratarMixMasterPage: React.FC = () => {
                         </a>
                     ))}
                 </div>
+                <h2>Esse é o tipo de diferença que você pode esperar ao contratar uma mixagem profissional.</h2>
+            </div>
+            <div style={{display: 'inline'}}>
+                <p> - Voz mais presente e clara</p>
+
+                <p> - Elementos equilibrados</p>
+
+                <p> - Som competitivo nas plataformas</p>
+
+                <p> - Essência do som realçada</p>
             </div>
             <section className='info-section'>
                 <h1>
@@ -51,6 +63,15 @@ const ContratarMixMasterPage: React.FC = () => {
                     <li>Arquivo final pronto para plataformas digitais</li>
                 </ul>
                 <h1>
+                    Como funciona
+                </h1>
+                <ul>
+                    <li>Você me envia as pistas + referências</li>
+                    <li>Faço a mix/master e te envio uma prévia</li>
+                    <li>Ajustes finais e entrega do arquivo pronto</li>
+                    <li>Até 2 revisões do som. Adicionais podem ser conversados.</li>
+                </ul>
+                <h1>
                     Valores e prazos:
                 </h1>
                 <ul>
@@ -61,12 +82,12 @@ const ContratarMixMasterPage: React.FC = () => {
                 <p>Valores e prazos podem variar de acordo com a complexidade do projeto. Para mais informações, pacotes, entre em contato!</p>
                 <h2>Agenda aberta para novos projetos!</h2>
                 <a href="https://ig.me/m/hypelostbeats" target="_blank" className="btn primary">
-                        Contratar serviço
+                        Levar meu som pro próximo nível
                 </a>
                 <p style={{fontSize: '0.75rem', marginTop: '1rem'}}>Você será redirecionado à DM (Instagram)</p>
 
                 <h1>
-                    Antes de contratar tenha em mãos:
+                    Quando entrar em contato, é interessante ter:
                 </h1>
                 <ul>
                     <li>Pistas em WAV ou AIFF (24bit/44.1kHz ou superior)</li>
