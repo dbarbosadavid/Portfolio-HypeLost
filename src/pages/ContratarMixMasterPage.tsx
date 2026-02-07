@@ -50,7 +50,7 @@ Uma boa música merece ser lapidada para valorizar ainda mais o som e a intenç�
             </div>
             <section className='info-section'>
                 <h1>
-                    Contrate Mixagem e Masterização Profissional
+                    Contrate Mixagem Musical e Masterização Profissional
                 </h1>
                 <p>Processo colaborativo com o artista, para entregar uma música limpa, com punch e indentidade: pronta para lançamento.</p>
                 <h1>
@@ -60,7 +60,7 @@ Uma boa música merece ser lapidada para valorizar ainda mais o som e a intenç�
                     <li>Mixagem e/ou Masterização artística e técnica</li>
                     <li>Ajustes finos de dinâmica, EQ, espacialidade</li>
                     <li>Revisões conforme necessário</li>
-                    <li>Arquivo final pronto para plataformas digitais</li>
+                    <li>Mixagem para Spotify e outras plataformas digitais</li>
                 </ul>
                 <h1>
                     Como funciona
@@ -81,7 +81,7 @@ Uma boa música merece ser lapidada para valorizar ainda mais o som e a intenç�
                 </ul>
                 <p>Valores e prazos podem variar de acordo com a complexidade do projeto. Para mais informações, pacotes, entre em contato!</p>
                 <h2>Agenda aberta para novos projetos!</h2>
-                <a href="https://ig.me/m/hypelostbeats" target="_blank" className="btn primary">
+                <a href="https://ig.me/m/prodhypelost" target="_blank" className="btn primary">
                         Levar meu som pro próximo nível
                 </a>
                 <p style={{fontSize: '0.75rem', marginTop: '1rem'}}>Você será redirecionado à DM (Instagram)</p>

@@ -71,7 +71,7 @@ const ServicosPage: React.FC = () => {
                 <h2>Agenda aberta para novos projetos!</h2>
 
                 <h2>
-                    <a href="https://ig.me/m/hypelostbeats" target="_blank" className="btn primary">
+                    <a href="https://ig.me/m/prodhypelost" target="_blank" className="btn primary">
                         Levar meu som pro próximo nível
                     </a>
                     <p style={{fontSize: '0.75rem', marginTop: '1rem'}}>Você será redirecionado à DM (Instagram)</p>

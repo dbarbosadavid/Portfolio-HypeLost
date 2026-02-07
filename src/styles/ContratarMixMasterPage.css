@@ -22,6 +22,7 @@
 }
 
 .slide {
+  margin-top: 5rem;
   scroll-margin-top: 200px;
   flex: 0 0 100%;
   width: 100%;

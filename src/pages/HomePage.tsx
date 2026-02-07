@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/HomePage.css";
+import '../styles/ContratarMixMasterPage.css';
 
 const HomePage: React.FC = () => {
   return (
@@ -74,7 +75,7 @@ const HomePage: React.FC = () => {
             </div>
 
             <div>
-              <a href="https://ig.me/m/hypelostbeats" 
+              <a href="https://ig.me/m/prodhypelost" 
                 target="_blank" 
                 className="btn secondary">
                 Entrar em contato
@@ -86,7 +87,28 @@ const HomePage: React.FC = () => {
           </div>
           <i className="fa-solid fa-angle-down fa-bounce"></i>
         </div>
+
       </section>
+      <div className="main-container">
+              
+                <div className="carousel">
+
+            {Array.from({ length: 4 }, (_, i) => (
+              <div className="slide" id={`slide-${i+1}`}>
+                            <img src={`src/assets/depoimento-${i+1}.PNG`} width={'75%'}/>
+              </div>
+            ))}
+                </div>
+                <div className="carousel-nav">
+            {Array.from({ length: 4 }, (_, i) => (
+              <a key={i} href={`#slide-${i+1}`} target='_self'>
+                                {i + 1}
+              </a>
+            ))}
+                </div>
+                <h2>Alguns feedbacks de artistas e clientes</h2>
+
+        </div>
     </>
   );
 };

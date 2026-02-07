@@ -31,7 +31,7 @@ export const BuyBeatPage: React.FC = () => {
                 </h1>
 
                 <h2>
-                    <a href="https://ig.me/m/hypelostbeats" target="_blank" className="btn primary">
+                    <a href="https://ig.me/m/prodhypelost" target="_blank" className="btn primary">
                         Obter Beat Personalizado
                     </a>
                     <p style={{fontSize: '0.75rem', marginTop: '1rem'}}>Você será redirecionado à DM (Instagram)</p>
