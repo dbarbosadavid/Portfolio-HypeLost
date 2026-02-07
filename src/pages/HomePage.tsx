@@ -95,7 +95,7 @@ const HomePage: React.FC = () => {
 
             {Array.from({ length: 4 }, (_, i) => (
               <div className="slide" id={`slide-${i+1}`}>
-                            <img src={`src/assets/depoimento-${i+1}.PNG`} width={'75%'}/>
+                            <img src={`images/depoimento-${i+1}.PNG`} width={'75%'}/>
               </div>
             ))}
                 </div>
